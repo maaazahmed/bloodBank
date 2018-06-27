@@ -1,0 +1,36 @@
+{
+  "name": "bloodApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "firebase": "^4.13.1",
+    "native-base": "^2.4.2",
+    "react": "16.3.1",
+    "react-iframe": "^1.1.0",
+    "react-native": "0.55.3",
+    "react-native-fontawesome": "^5.7.0",
+    "react-native-image-picker": "^0.26.10",
+    "react-native-imagepicker": "^2.0.0",
+    "react-native-material-dropdown": "^0.11.1",
+    "react-native-open-maps": "^0.1.4",
+    "react-native-simple-dialogs": "^0.3.1",
+    "react-native-vector-icons": "^4.6.0",
+    "react-navigation": "^1.5.11",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.3",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.3",
+    "react-test-renderer": "16.3.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
